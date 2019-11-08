@@ -1,0 +1,9 @@
+@import '../colors';
+
+.sidenav-content {
+    background-color: $blue_;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    z-index: 99999;
+}

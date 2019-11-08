@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+// START UIKIT
+@import "../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+@import "../node_modules/uikit/src/scss/uikit-theme.scss";
+// @import "../node_modules/uikit/src/scss/uikit.scss";
+// END UIKIT
+
+@import './styles/colors';
+@import './styles/var';
+@import './styles/layout/base';

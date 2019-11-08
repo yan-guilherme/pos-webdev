@@ -1,0 +1,25 @@
+@import '../styles/cores';
+@import '../styles/var';
+
+
+.beer-img {
+    background-image: url(../assets/img/beer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: $cem-p;
+    height: $cem-p;
+}
+
+.title {
+    color: $cor3;
+    position: absolute;
+    top: $double-base;
+    right: $double-base;
+}
+
+.btn-center {
+    position: absolute;
+    left: $double-base;
+    top: $double-base;
+}
