@@ -2,12 +2,16 @@
     "beer": [{
         "id": 1,
         "name": "beer 1",
-        "description": "Brazil"
+        "description": "Brazil",
+        "price": "19.99",
+        "year": "11-27-1949"
     },
 {
         "id": 2,
         "name": "beer 2",
-        "description": "Brazil"
+        "description": "Brazil",
+        "price": "29.99",
+        "year": "05-20-1994"
     }
 	]
 }
