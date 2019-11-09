@@ -1,13 +1,29 @@
 {
-    "beer": [{
-        "id": 1,
-        "name": "beer 1",
-        "description": "Brazil"
+  "beer": [
+    {
+      "name": "Edicao 01",
+      "description": "Americana",
+      "id": 1
     },
-{
-        "id": 2,
-        "name": "beer 2",
-        "description": "Brazil"
+    {
+      "name": "beer 2",
+      "description": "Brazilsdfas",
+      "id": 2
+    },
+    {
+      "name": "beer 3sdfsdf",
+      "description": "Brazil",
+      "id": 3
+    },
+    {
+      "name": "Beer 58",
+      "description": "Teste de adicionar",
+      "id": 4
+    },
+    {
+      "name": "Skol",
+      "description": "Desce redondo",
+      "id": 5
     }
-	]
+  ]
 }
