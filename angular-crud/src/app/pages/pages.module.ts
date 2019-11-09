@@ -6,7 +6,7 @@ import { BeerModule } from './beer/beer.module';
   declarations: [
   ],
   imports: [
-    BeerModule
+    BeerModule,
   ],
   providers: [],
   bootstrap: []
