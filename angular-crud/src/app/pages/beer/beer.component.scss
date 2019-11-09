@@ -1,0 +1,22 @@
+.container {
+    padding: 10px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+table {
+    border-top: 1px solid black;
+}
+
+td, th{
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+button {
+    background-color: #2870B2;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
