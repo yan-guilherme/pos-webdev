@@ -6,6 +6,19 @@
  *  O Routing module serve para o gerenciamento de rotas dos componets do angular
  */
 
+# Enviar uma Pull Request da sua Branch para a Master
+# master -> seu_nome
+
+# https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+# git checkout master
+# git pull
+# git checkout -b [seu_nome]
+# git push origin [seu_nome]
+# git branch -a
+# 
+
+
+
 # npm install -g json-server 
 
 beer.json
@@ -245,7 +258,7 @@ export class BeerDetalheComponent implements OnInit {
 }
 
 
-# editar src/app/produto-detalhe/produto-detalhe.component.html
+# editar src/app/beer-detalhe/beer-detalhe.component.html
 
 <div class="container">
 
