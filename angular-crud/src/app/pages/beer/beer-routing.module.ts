@@ -13,21 +13,21 @@ export const beerRoutes: Routes = [
     component: BeerComponent,
     data: { title: 'Lista de Cervejas' }
   },
-  {
+  /*{
     path: 'beer-detalhe/:id',
     component: BeerDetalheComponent,
     data: { title: 'Detalhe das Cervejas' }
-  },
+  },*/
   {
     path: 'beer-novo',
     component: BeerFormComponent,
     data: { title: 'Adicionar Cerveja' }
   },
-  {
+  /*{
     path: 'beer-editar/:id',
     component: BeerEditarComponent,
     data: { title: 'Editar a Cerveja' }
-  },
+  },*/
   { path: '',
     redirectTo: '/beer',
     pathMatch: 'full'

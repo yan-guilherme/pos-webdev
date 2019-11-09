@@ -2,17 +2,17 @@ import { Injectable } from '@angular/core';
 import { Observable, of, throwError } from 'rxjs';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { catchError, tap, map } from 'rxjs/operators';
-// import { Beer } from 'src/core/model/beer';
+import { Beer } from 'src/core/model/beer.model';
 
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
-const apiUrl = 'http://localhost:5000/api/beer';
+const apiUrl = 'http://5dc6ba94317717001434f7fa.mockapi.io/beer';
 
 @Injectable({
   providedIn: 'root'
 })
-export class ApiService {
+export class BeerService {
 
   constructor(private http: HttpClient) { }
 

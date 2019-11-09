@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { CardsComponent } from 'src/app/core/components/cards/cards.component';
 import { BeerComponent } from './beer.component';
@@ -11,7 +12,9 @@ import { BeerFormComponent } from './beer-form/beer-form.component';
     BeerFormComponent,
     CardsComponent
   ],
-  imports: [],
+  imports: [
+    BrowserModule
+  ],
   providers: [
     // BeerService
   ],

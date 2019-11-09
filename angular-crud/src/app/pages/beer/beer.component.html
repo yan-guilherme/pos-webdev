@@ -1,6 +1,18 @@
 <div>
-  <div class="uk-child-width-expand@s uk-text-center " uk-grid>
-         
+  <div style="margin: 50px" class="uk-child-width-expand@s uk-text-center " uk-grid>
+    <table>
+      <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let b of beers">
+          <td>{{b.id}}</td>
+          <td>{{b.name}}</td>
+          <td>{{b.description}}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
-
