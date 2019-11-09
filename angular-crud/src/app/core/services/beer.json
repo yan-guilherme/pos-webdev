@@ -1,8 +1,13 @@
-{ 
-    "beer": [
-        {
-            "name": "test 1",
-            "description": "test 2"
-        }
-    ]
+{
+    "beer": [{
+        "id": 1,
+        "name": "beer 1",
+        "description": "Brazil"
+    },
+{
+        "id": 2,
+        "name": "beer 2",
+        "description": "Brazil"
+    }
+	]
 }
