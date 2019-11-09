@@ -1,6 +1,23 @@
-<div>
-  <div class="uk-child-width-expand@s uk-text-center " uk-grid>
-         
-  </div>
+<div class="container">
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let beer of beers">
+        <td>{{ beer.id }}</td>
+        <td>{{ beer.name }}</td>
+        <td>{{ beer.description }}</td>
+        <td>
+          <button (click)="editBeer(beer.id)">Edit</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
